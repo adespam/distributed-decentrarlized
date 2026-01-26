@@ -29,3 +29,6 @@ dan jika menggunakan podman maka perintahnya:
 podman build -f Dockerfile -t flaskr:1.0.0 ..
 ```
 
+link video:
+
+(https://drive.google.com/file/d/1OHvgos_eoiQQ8RLqHBgXDI7l_WkLe_VK/view?usp=drive_link)
