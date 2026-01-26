@@ -18,3 +18,7 @@ untuk implementasi konsep load balancing pada task ini menggunakan komponen-komp
 2. Nginx meneruskan permintaan tersebut (proxy_pass) ke grup upstream backend.
 3. Karena ada 2 instance aplikasi (bs_app-1 dan bs_app-2) yang berjalan, Nginx akan membagi permintaan tersebut ke kedua aplikasi tersebut.
 4. Hal ini dibuktikan melalui log (docker logs), di mana terlihat permintaan masuk ditangani secara bergantian atau terdistribusi ke instance yang berbeda.
+
+link video :
+
+(https://drive.google.com/file/d/1xdQSm5NWmqQXM_7f3LfSEsBywMM7lGtT/view?usp=drive_link).
