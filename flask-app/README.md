@@ -5,8 +5,8 @@ Tujuan utama pembuatan CA dalam konteks task ini adalah mengubah aplikasi web st
 
 #### Langkah-langkah implementasi pembuatan CA
 1. Persiapan Sumber Kode (Source Code): Mengambil kode sumber aplikasi blog dari tutorial Flask (flask/examples/tutorial) dan menyalinnya ke direktori kerja flask-app
-2. Pembuatan Resep Image (Dockerfile): Implementasi inti ada pada pembuatan file bernama Dockerfile di dalam direktori aplikasi. File ini berisi instruksi membangun lingkungan container:
-    * Pembuatan Resep Image (Dockerfile): Implementasi inti ada pada pembuatan file bernama Dockerfile di dalam direktori aplikasi. File ini berisi instruksi membangun lingkungan container:
+2. Persiapan Pembuatan Image (Pembuatan Dockerfile): Implementasi inti ada pada pembuatan file bernama Dockerfile di dalam direktori aplikasi. File ini berisi instruksi membangun lingkungan container:
+    * Base Image: Menggunakan python:3.13 sebagai dasar sistem.
     * Direktori Kerja: Membuat dan menetapkan /flask-app sebagai direktori kerja di dalam container.
     * Menyalin File: Memasukkan semua kode dari komputer lokal ke dalam folder /flask-app/ di container.
     * Instalasi Dependensi: Menjalankan perintah pip install -e . untuk menginstal aplikasi dan kebutuhan Python-nya di dalam container.
